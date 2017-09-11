@@ -9,14 +9,14 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import 'hammerjs';
 import { CandidateModule } from './candidates/candidate.module';
-import { JobModule } from "./jobs/job.module";
+import { JobModule } from './jobs/job.module';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './login/login.component';
 import { routing } from './routers/app.routing';
 import { AuthGuard } from './guards/auth.guard';
 import { AuthenticationService } from './accounts/authentication.service';
 import { UserService } from './accounts/user.service';
-import { AuthenticatedHttpService } from "./accounts/authenticated-http.service";
+import { AuthenticatedHttpService } from './accounts/authenticated-http.service';
 
 @NgModule({
   declarations: [
