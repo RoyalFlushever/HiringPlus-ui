@@ -4,10 +4,10 @@ import {AuthenticationService} from './authentication.service';
 import { AuthenticatedHttpService } from '../accounts/authenticated-http.service';
 import {Observable} from 'rxjs';
 import {User} from './user';
-import { DashboardData } from "./dashboardData";
+import { DashboardData } from './dashboardData';
 
 import 'rxjs/add/operator/map';
-import {environment} from "../../environments/environment";
+import {environment} from '../../environments/environment';
 
 @Injectable()
 export class UserService {
